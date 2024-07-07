@@ -17,15 +17,16 @@ experiments on the IXI and BraTS2020 datasets demonstrate that our method
 achieves state-of-the-art performance compared to other multi-contrast MRI super-resolution methods, and our method is robust in terms of different super-resolution scales.
 
 ## Installation
->git clone https://github.com/zhiyuan-yang/Edge-Guided-Cross-Scale-MRI-Super-resolution.git
+```git clone https://github.com/zhiyuan-yang/Edge-Guided-Cross-Scale-MRI-Super-resolution.git```
 ## Requirements
->pip install -r requirements.txt
+```pip install -r requirements.txt```
 ## Datasets
->-datasets
->--trian
->--test
+[IXI dataset](https://brain-development.org/ixi-dataset/)
+
+[BraTSDataset](https://www.med.upenn.edu/cbica/brats2020/data.html)
+
 ## Run
->python train.py
+```python train.py```
 ## Acknowledgement
 We use some codes from [TTSR](https://github.com/researchmm/TTSR) and [DCAMSR](https://github.com/Solor-pikachu/DCAMSR). We would like to thank the authors for their great work.
 
