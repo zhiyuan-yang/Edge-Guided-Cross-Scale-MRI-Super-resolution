@@ -63,31 +63,31 @@ parser.add_argument('--train_crop_size', type=int, default=40,
                     help='Training data crop size')
 parser.add_argument('--num_epochs', type=int, default=50,
                     help='The number of training epochs')
-parser.add_argument('--train_lr_path', type=str, default='G://train_toy/LRx2',
+parser.add_argument('--train_lr_path', type=str, default='./datasets/train/LRx2',
                     help='Low resolution dataset for training')
-parser.add_argument('--train_hr_path', type=str, default='G://train_toy/HR',
+parser.add_argument('--train_hr_path', type=str, default='./datasets/train/HR',
                     help='High resolution dataset for training')
-parser.add_argument('--train_ref_path', type=str, default='G://train_toy/Ref',
+parser.add_argument('--train_ref_path', type=str, default='./datasets/train/Ref',
                     help='Ref dataset for training')
 
 
 ### validation setting
-parser.add_argument('--val_lr_path', type=str, default='G://valid/LRx2',
+parser.add_argument('--val_lr_path', type=str, default='./datasets/valid/LRx2',
                     help='Low resolution dataset for validation')
-parser.add_argument('--val_hr_path', type=str, default='G://valid/HR',
+parser.add_argument('--val_hr_path', type=str, default='./datasets/valid/HR',
                     help='High resolution dataset for validation')
-parser.add_argument('--val_ref_path', type=str, default='G://valid/Ref',
+parser.add_argument('--val_ref_path', type=str, default='./datasets/valid/Ref',
                     help='Ref dataset for validation')
 parser.add_argument('--val_freq', type=int, default=5,
                     help='Validation Frequency')
 
 
 ### test setting
-parser.add_argument('--test_lr_path', type=str, default='G://test/LRx2',
+parser.add_argument('--test_lr_path', type=str, default='./datasets/test/LRx2',
                     help='Low resolution dataset for validation')
-parser.add_argument('--test_hr_path', type=str, default='G://test/HR',
+parser.add_argument('--test_hr_path', type=str, default='./datasets/test/HR',
                     help='High resolution dataset for validation')
-parser.add_argument('--test_ref_path', type=str, default='G://test/Ref',
+parser.add_argument('--test_ref_path', type=str, default='./datasets/test/Ref',
                     help='Ref dataset for validation')
 
 args = parser.parse_args()       
