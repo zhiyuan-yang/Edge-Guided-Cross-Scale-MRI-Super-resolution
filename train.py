@@ -5,7 +5,7 @@ import numpy as np
 import time
 from config import args
 from datasets.load_dataset import RefSRDataset
-from models.DCAMSR_splitbranch import DCAMSR
+from models.EGMSSR import DCAMSR
 from skimage.metrics import structural_similarity as SSIM
 from skimage.metrics import peak_signal_noise_ratio as PSNR
 import datetime
