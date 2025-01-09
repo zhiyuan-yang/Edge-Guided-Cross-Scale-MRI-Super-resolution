@@ -1,4 +1,4 @@
-# Edge-guided and Cross-scale Feature Fusion Network for Efficient Multi-contrast MRI Super-Resolution
+# [ICPR 24'] Edge-guided and Cross-scale Feature Fusion Network for Efficient Multi-contrast MRI Super-Resolution
 **Zhiyuan Yang, Bo Zhang, Zhiqiang Zeng, Seo Yong Yeo**
 
 ![Network](./Fig/Fig1.png)
@@ -40,6 +40,21 @@ pip install -r requirements.txt
 ```
 python train.py
 ```
+## Cite
+@InProceedings{10.1007/978-3-031-78398-2_14,
+author="Yang, Zhiyuan
+and Zhang, Bo
+and Zeng, Zhiqiang
+and Yeo, Si Yong",
+title="Edge-Guided and Cross-Scale Feature Fusion Network for Efficient Multi-contrast MRI Super-Resolution",
+booktitle="Pattern Recognition",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="208--218",
+isbn="978-3-031-78398-2"
+}
+
 ## Acknowledgement
 We use some codes from [TTSR](https://github.com/researchmm/TTSR) and [DCAMSR](https://github.com/Solor-pikachu/DCAMSR). We would like to thank the authors for their great work.
 
